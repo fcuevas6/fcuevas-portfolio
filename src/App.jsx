@@ -1,11 +1,14 @@
 import './App.css'
+import Hero from './Hero'
+import NavBar from './NavBar'
+import Projects from './Projects'
 
 function App() {
   return (
     <>
-      <p>
-        Francisco Cuevas Porfolio
-      </p>
+      <NavBar />
+      <Hero />
+      <Projects />
     </>
   )
 }

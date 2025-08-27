@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* :root {
+    background-color: #242424;
+    color: #fcfcfc;
+} */
+
+@keyframes spin-slow {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.rotating-mask {
+  animation: spin-slow 15s linear infinite;
+}
