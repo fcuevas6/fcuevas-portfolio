@@ -4,7 +4,7 @@ import React, { useState } from "react";
 export default function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav className="p-4 flex justify-between items-center bg-white shadow-md relative">
+    <nav className="px-16 py-4 flex justify-between items-center bg-neutral-100 shadow-md relative">
       <h1 className="font-bold text-lg">Francisco Cuevas Portfolio</h1>
       {/* Hamburger button for small screens */}
       <button
