@@ -19,17 +19,17 @@ export default function Hero() {
                 backgroundImage: `url(${franciscoImg})`,
                 backgroundSize: 'cover',
                 filter: 'contrast(1.1)',
-
               }}
               className="min-w-[20rem] lg:min-w-[26rem] h-80 lg:h-100"
             />
             {/* <div className={`mask-[url(${blob})] bg-[url(${franciscoImg})] w-80 h-80 bg-red-100`}></div> */}
         </div>
         <div className="flex flex-col justify-center">
-            <h2 className="lg:text-7xl text-4xl py-6 font-bold text-neutral-200">Francisco Cuevas</h2>
-            <p className="lg:text-5xl text-2xl py-2 text-neutral-200">Web Developer</p>
+            <h2 className="lg:text-7xl text-4xl lg:py-6 font-bold text-neutral-200 text-shadow-lg/60 text-shadow-neutral-950">Francisco Cuevas</h2>
+            <p className="lg:text-4xl text-xl tracking-[.125rem] font-bold py-2 text-neutral-200">Front-End Developer</p>
+            <p className="lg:text-2xl text-xl tracking-[.1rem] font-semibold py-2 text-neutral-200">Building Responsive, Accessible Web Interfaces</p>
             <p className="text-md py-5 leading-8 max-w-xl mx-auto text-neutral-200">
-                Hello, thank you for check your my portfolio!
+                Experienced in HTML, CSS, JavaScript, React, and modern styling frameworks.
             </p>
         </div>
     </section>
