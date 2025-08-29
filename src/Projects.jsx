@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./components/ProjectCard";
-import surgeryStatusBoardImg from './assets/surgery-status-board.png';
-import littleLemonRestaurantImg from './assets/little-lemon-restaurant.png';
+import surgeryStatusBoardImg from './assets/Surgery-Status-Board.png';
+import littleLemonRestaurantImg from './assets/Little-Lemon-Restaurant.png';
 import {
   HTML5,
   CSS3,
