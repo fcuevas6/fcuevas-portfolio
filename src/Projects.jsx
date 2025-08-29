@@ -29,8 +29,7 @@ export default function Projects() {
                 Created a real-time surgical status dashboard 
                 to enhance hospital communication with patients’ families and streamline patient intake. 
                 The application provides live updates on surgery progress and patient information, 
-                improving efficiency and coordination among medical teams and administrators.surgeries 
-                in a hospital setting."
+                improving efficiency and coordination among medical teams and administrators."
                 liveLink="https://v56-tier1-team-01.vercel.app/"
                 repoLink="https://github.com/chingu-voyages/V56-tier1-team-01"
                 tech={<>
