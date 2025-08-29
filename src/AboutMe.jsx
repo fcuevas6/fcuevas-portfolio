@@ -1,5 +1,5 @@
 import React from "react";
-import franciscoImg2 from './assets/francisco-2.jpg';
+import franciscoImg2 from './assets/francisco-2.JPG';
 
 export default function AboutMe() {
   return (
