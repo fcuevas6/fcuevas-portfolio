@@ -26,7 +26,7 @@ export default function Projects() {
                 img={surgeryStatusBoardImg}
                 alt="Surgery Status Board Screenshot"
                 description="
-                A web application to track the status of Created a real-time surgical status dashboard 
+                Created a real-time surgical status dashboard 
                 to enhance hospital communication with patients’ families and streamline patient intake. 
                 The application provides live updates on surgery progress and patient information, 
                 improving efficiency and coordination among medical teams and administrators.surgeries 
