@@ -18,38 +18,32 @@ export default function Contact() {
                     feel free to reach out.
                 </p>
             </div>
-            <div className="basis-2/5 lg:px-12">
-                <div className="flex items-center pl-12 gap-2 rounded-lg shadow-lg my-2 bg-neutral-50 hover:scale-105 transition-transform">
-                    <a href="mailto:fcuevas09@gmail.com"
+            <div id="contact-points" className="basis-2/5 lg:px-12">
+                <a href="mailto:fcuevas09@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 lg:py-4 py-6">
-                        <p className="inline text-4xl lg:mx-2 mx-1">📩</p>
-                    </a>
+                    className="flex items-center pl-12 gap-2 rounded-lg shadow-lg my-2 bg-neutral-50 hover:scale-105 transition-transform lg:py-4 py-6">
+                    <p className="inline text-4xl lg:mx-2 mx-1">📩</p>
                     <p className="text-md text-neutral-800">Send me an email</p>
-                </div>
-                <div className="flex items-center pl-12 gap-2 rounded-lg shadow-lg my-2 bg-neutral-50 hover:scale-105 transition-transform">
-                    <a 
+                </a>
+                <a 
                     href="https://www.linkedin.com/in/francisco-cuevas-designer/" 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="flex items-center gap-2 lg:py-4 py-6">
+                    className="flex items-center pl-12 gap-2 rounded-lg shadow-lg my-2 bg-neutral-50 hover:scale-105 transition-transform lg:py-4 py-6">
                         <LinkedIn className="inline lg:w-9 lg:h-9 w-7 h-7 lg:mx-2 mx-1 text-neutral-800 hover:text-blue-700" 
                         title="LinkedIn"/>
-                    </a>
                     <p className="text-md text-neutral-800">Connect with me on LinkedIn</p>
-                </div>
-                <div className="flex items-center pl-12 gap-2 rounded-lg shadow-lg my-2 bg-neutral-50 hover:scale-105 transition-transform">
-                    <a 
+                </a>
+                <a 
                     href="https://github.com/fcuevas6" 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="flex items-center gap-2 lg:py-4 py-6">
+                    className="flex items-center pl-12 gap-2 rounded-lg shadow-lg my-2 bg-neutral-50 hover:scale-105 transition-transform lg:py-4 py-6">
                         <GitHubDark className="inline lg:w-9 lg:h-9 w-7 h-7 lg:mx-2 mx-1 text-neutral-800 hover:text-blue-700" 
                         title="LinkedIn"/>
-                    </a>
                     <p className="text-md text-neutral-800">Check out my GitHub profile</p>
-                </div>
+                </a>
             </div>
         </div>
     </section>
