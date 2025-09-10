@@ -13,6 +13,7 @@ export default function ProjectCard({ ...props }) {
             <div>
                 <h4 className="lg:text-3xl text-xl font-semibold p-2 text-neutral-900">{props.title}</h4>
                 <p className="text-md p-2 text-neutral-900">{props.description}</p>
+                <p className="text-sm p-2 text-neutral-500 italic">{props.demoCredentials}</p>
             </div>
             <div>
                 <a href={props.liveLink} target="_blank" rel="noopener noreferrer">
